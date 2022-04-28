@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question:4</title>
+        
+    </head>
+    <style>
+        input[type=text],select, textarea{
+            width: 100%;            
+            padding: 12px;
+            border: 3px solid #ffbd59;
+            border-radius: 4px;
+            box-sizing: border-box;
+            resize: vertical;
+        }
+        label{
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+            color: rgb(255, 187, 0);
+            font-size: 25px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        input[type=submit]{
+            background-color: #e69f34;
+            color: #f1f1f1;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+        input[type=file]{
+            border:3px solid #ffbd59;
+            width: 100%;
+            padding: 12px;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=reset]{
+            background-color: #e69f34;
+            color: #f1f1f1;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+
+        input[type=submit]:hover{
+            color: black;
+            background-color: rgb(218, 216, 216);
+        }
+        input[type=reset]:hover{
+            color: black;
+            background-color: rgb(218, 216, 216);
+        }
+        .main{
+            border-radius: 5px;
+            background-color: #152837;
+            padding: 20px;
+        }
+        .col-25{
+            float: left;
+            width: 25%;
+            margin-top: 6px;
+        }
+        .col-75{
+            float: left;
+            width: 75%;
+            margin-top: 6px;
+            color: honeydew;
+        }
+        .row:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        @media screen and (max-width:600px){
+            .col-25, .col-75, input[type=submit],input[type=reset]{
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+
+        p{
+            font-size: 60px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            width: 100%;
+            background-color: #ffbd59;
+            color: #152837;
+            text-align: center;
+            padding: 12px 20px;
+            border-radius: 4px;
+            box-sizing: border-box;
+            resize: vertical;
+        }
+        body{
+            background-color:black;
+            background-image: url(bg.png);
+        }
+    
+    </style>
+    
+    <body>
+        
+        <p>Registration and User Login</p>
+        <div class="main">
+            <form>
+                
+                <div class="row">
+                    <div class="col-25">
+                        <label for="aname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="aname" name="articlename" placeholder="First Name...">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="auname">Last Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="auname" name="authorname" placeholder="Write author's name here...">
+                    </div>
+                </div>
+         
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" id="email" placeholder="write your mail">
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="password" id="password" placeholder="password">
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subtopic">Gender</label>
+                    </div>
+                    <div class="col-75">
+                        <select name="subtopic" id="sublist">
+                            <option value="select">Select</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="others">Others</option>
+                            
+                        </select>
+                    </div>
+                </div>
+
+                
+                <div class="row">
+                    <div class="col-25">
+                        <label for="submit"></label>
+                        <input type="submit" name="Submit" id="submit">
+                    </div>
+                    <div class="col-75">
+                        <label for="reset"></label>
+                        <input type="reset" id="reset" name="Reset">
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+       
+    </body>
+</html>

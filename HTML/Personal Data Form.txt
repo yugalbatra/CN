@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<h1>Provide Details</h1>
+<form>
+Name:<input type="text" id="text" ><br><br> 
+Email ID:<input type="email" id="email" <br><br><br>
+Password:<input type="password" id="text" ><br><br>
+Confirm Password:<input type="password" id="text" ><br><br> 
+Address:<textarea rows="3" cols="30"></textarea><br><br> 
+Gender:<br> 
+<input type="radio" name="artype" value="Female">Female<br> 
+<input type="radio" name="artype" value="Male" >Male<br>
+I Agree to the terms and conditions:
+<input type="checkbox" value="agree"><br><br>
+Account type:<br> 
+<select id="Year"> 
+    <option value="Presonal" selected>Personal"</option> 
+    <option value="Professional">Professional"</option> 
+</optgroup></select><br><br>
+<input type="submit">
+</form>
+</body>
+</html>

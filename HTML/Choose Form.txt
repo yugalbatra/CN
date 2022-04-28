@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+				
+   <head>
+      <title>Practical Q6</title>
+   </head>
+   
+   <body>
+   				<div style="border:2px solid">      
+      <form>
+      				<p>Enter name of your friend <input type="text">
+      				</p>
+      			
+      				<p>
+      								Choose the File you want to post to your friend <br><input type="file" id="filepath"">      								      					     						
+      				</p>
+      				
+      				    
+       <p>What does the file contain?
+          <br>
+            <input type="checkbox" name="type" value="image">Image 
+
+            <input type="checkbox"  name="English" value="source"">Source code
+
+            <input type="checkbox" name="General Knowledge" value="binary">Binary code
+<br>
+         </p>                 
+             
+             You have Completed the Form.            
+                
+            <input type="submit" style="font-size: 15px"value="Submit Query">
+            <br>
+      </form>
+      </div>
+      
+   </body>
+   
+</html>
